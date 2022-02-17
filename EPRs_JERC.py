@@ -1,17 +1,17 @@
-from EPRs_Athens import *
-from EPRs_BRU import *
-from EPRs_Buffalo import *
-from EPRs_Calo import *
-from EPRs_FastSim import *
-from EPRs_HIP import *
-from EPRs_HH import *
-from EPRs_Lyon import *
-from EPRs_KIT import *
-from EPRs_PFHadron import *
-from EPRs_Yonsei import *
+from JERC.EPRs_Athens import *
+from JERC.EPRs_BRU import *
+from JERC.EPRs_Buffalo import *
+from JERC.EPRs_Calo import *
+from JERC.EPRs_FastSim import *
+from JERC.EPRs_HIP import *
+from JERC.EPRs_HH import *
+from JERC.EPRs_Lyon import *
+from JERC.EPRs_KIT import *
+from JERC.EPRs_PFHadron import *
+from JERC.EPRs_Yonsei import *
 
 
-def EPRs_All():
+def EPRs_JERC():
     eprs = []
     eprs.extend(EPRs_Athens())
     eprs.extend(EPRs_BRU())

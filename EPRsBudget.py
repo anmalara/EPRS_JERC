@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from prettytable import PrettyTable
-from EPRs_All import *
+from EPRs_JERC import *
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
     # filter_by = ('task','JER -- SF -- dijet')
 
     EPRS = []
-    EPRS.extend(EPRs_All())
+    EPRS.extend(EPRs_JERC())
     for epr in EPRS:
         if not epr.get_value('task') in EPR_tasks():
             raise Exception('EPR task not known!!')
