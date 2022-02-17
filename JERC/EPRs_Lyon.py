@@ -17,7 +17,7 @@ def EPRs_Lyon():
 
     eprs.append(EPRContainer(
         task       = 'JES -- L3 Res -- gamma+jet',
-        user       = 'Ji Eun',
+        user       = 'Ji Eun Choi',
         university = university,
         pledges    = 3,
         done       = 0,

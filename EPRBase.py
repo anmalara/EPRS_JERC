@@ -16,7 +16,6 @@ def TaskColor(task):
     if task=='JES -- MC Truth -- FastSim':    color = magenta
     if task=='JES -- MC Truth -- Calo/JPT':   color = magenta
     if task=='JES -- L1 Res':                 color = blue
-    if task=='JES -- L1 Res':                 color = blue
     if task=='JES -- L2 Res':                 color = blue
     if task=='JES -- L3 Res -- gamma+jet':    color = blue
     if task=='JES -- L3 Res -- Z+jet':        color = blue
@@ -42,7 +41,6 @@ def EPR_tasks():
         'JES -- MC Truth -- L1L2L3',
         'JES -- MC Truth -- FastSim',
         'JES -- MC Truth -- Calo/JPT',
-        'JES -- L1 Res',
         'JES -- L1 Res',
         'JES -- L2 Res',
         'JES -- L3 Res -- gamma+jet',

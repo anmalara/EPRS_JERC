@@ -74,7 +74,7 @@ def EPRs_HH():
     eprs.append(EPRContainer(
         task       = 'JER -- MC',
         user       = 'Polidamas Kosmoglou',
-        university = '???',
+        university = 'Ioannina',
         pledges    = 2,
         done       = 0,
         last_year  = 1,
