@@ -7,7 +7,7 @@ def EPRs_HH():
         task       = 'JER -- SF -- dijet',
         user       = 'Alexander Paasch',
         university = university,
-        pledges    = 4,
+        pledges    = 2,
         done       = 0,
         last_year  = 3,
         agreed     = False,
@@ -18,7 +18,7 @@ def EPRs_HH():
         task       = 'JER -- SF -- dijet',
         user       = 'Matthias Schroeder',
         university = university,
-        pledges    = 2,
+        pledges    = 1,
         done       = 0,
         last_year  = 2,
         agreed     = False,
@@ -26,10 +26,10 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JES -- L2 Res',
+        task       = 'JME Coffea',
         user       = 'Alexander Paasch',
         university = university,
-        pledges    = 0,
+        pledges    = 2,
         done       = 0,
         last_year  = 3,
         agreed     = False,
@@ -37,12 +37,12 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JES -- L2 Res',
+        task       = 'JME Coffea',
         user       = 'Matthias Schroeder',
         university = university,
-        pledges    = 0,
+        pledges    = 1,
         done       = 0,
-        last_year  = 3,
+        last_year  = 1,
         agreed     = False,
         approved   = False,
         note       = 'Used for coffea',
@@ -52,14 +52,25 @@ def EPRs_HH():
         task       = 'JER -- SF -- dijet',
         user       = 'New student',
         university = university,
-        pledges    = 6,
+        pledges    = 3,
         done       = 0,
-        last_year  = 1,
+        last_year  = 0,
         agreed     = False,
         approved   = False,
         note       = 'Used for coffea',
         ))
 
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'New student',
+        university = university,
+        pledges    = 3,
+        done       = 0,
+        last_year  = 0,
+        agreed     = False,
+        approved   = False,
+        note       = 'Used for coffea',
+        ))
     eprs.append(EPRContainer(
         task       = 'JER -- MC',
         user       = 'Patrick Connor',

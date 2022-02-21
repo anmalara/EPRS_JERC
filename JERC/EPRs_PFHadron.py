@@ -17,7 +17,7 @@ def EPRs_PFHadron():
         task       = 'PF Hadron Calibration',
         user       = 'Juska Pekkanen',
         university = 'SUNY-BUFFALO',
-        pledges    = 0,
+        pledges    = 2,
         done       = 0,
         last_year  = 2,
         agreed     = False,
