@@ -51,11 +51,12 @@ def EPRs_BRU():
         task       = 'JER -- SF -- zjet',
         user       = 'Soumya Dansana',
         university = university,
-        pledges    = 0,
+        pledges    = 3,
         done       = 0,
         last_year  = 0,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Pledge in JES -- L1 Res for 2021',
         ))
 
     eprs.append(EPRContainer(

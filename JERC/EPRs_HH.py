@@ -33,7 +33,8 @@ def EPRs_HH():
         done       = 0,
         last_year  = 3,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Taken from JES -- L2 Res in 2021',
         ))
 
     eprs.append(EPRContainer(
@@ -45,7 +46,7 @@ def EPRs_HH():
         last_year  = 1,
         agreed     = False,
         approved   = False,
-        note       = 'Used for coffea',
+        note       = 'Taken from JES -- L2 Res in 2021',
         ))
 
     eprs.append(EPRContainer(
@@ -57,7 +58,6 @@ def EPRs_HH():
         last_year  = 0,
         agreed     = False,
         approved   = False,
-        note       = 'Used for coffea',
         ))
 
     eprs.append(EPRContainer(
@@ -69,8 +69,8 @@ def EPRs_HH():
         last_year  = 0,
         agreed     = False,
         approved   = False,
-        note       = 'Used for coffea',
         ))
+
     eprs.append(EPRContainer(
         task       = 'JER -- MC',
         user       = 'Patrick Connor',
