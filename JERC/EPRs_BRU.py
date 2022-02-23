@@ -9,9 +9,10 @@ def EPRs_BRU():
         university = university,
         pledges    = 2,
         done       = 0,
-        last_year  = round(1./3,2),
+        last_year  = 2,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Effective only '+str(round(1./3,2))+'. The rest for the previous convener.'
         ))
 
     eprs.append(EPRContainer(

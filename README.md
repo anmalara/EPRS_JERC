@@ -6,3 +6,5 @@
 
 2. Run:
     `./EPRsBudget.py`
+    Options:
+        - '-e/--expand' print all tables. Disabled as default. 

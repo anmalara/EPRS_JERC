@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import argparse
 from prettytable import PrettyTable
 from EPRs_JERC import *
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--expand', '-e', action='store_true', default=False, dest='expand', help='Show all info')
+    args = parser.parse_args()
     filter_by = None
 
     # filter_by = ('task','JER -- SF -- dijet')
@@ -19,6 +23,10 @@ def main():
     infos = EPR_infos()
     tasks = EPR_tasks()
     totals = { 'pledges': 0, 'done': 0, 'last_year': 0}
+    
+    table_totals = PrettyTable(infos)
+    for info in infos:
+            table_totals.align[info] = 'l'
 
     for task in tasks:
         table = PrettyTable(infos)
@@ -39,10 +47,17 @@ def main():
             summary[infos.index(name)] = yellow(tot)
 
         table.add_row(summary)
-        print(table,'\n')
+        table_totals.add_row(summary)
+        if args.expand:
+            print(table,'\n')
 
+    summary = ['' for x in infos]
+    summary[infos.index('task')] = cyan('Total')
     for tot in totals:
-        print(cyan(tot+' = '+str(totals[tot])))
+        summary[infos.index(tot)] = cyan(totals[tot])
+    table_totals.add_row(summary)
+    print(table_totals,'\n')
+   
 
 
 if __name__ == '__main__':

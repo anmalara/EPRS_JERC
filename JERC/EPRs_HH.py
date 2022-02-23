@@ -86,8 +86,8 @@ def EPRs_HH():
         task       = 'JER -- MC',
         user       = 'Polidamas Kosmoglou',
         university = 'Ioannina',
-        pledges    = 2,
-        done       = 0,
+        pledges    = 3,
+        done       = 2,
         last_year  = 1,
         agreed     = False,
         approved   = False

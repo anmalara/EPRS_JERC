@@ -7,7 +7,7 @@ def EPRs_KIT():
         task       = 'JES -- L3 Res -- Z+jet',
         user       = 'Robin Hofsaess',
         university = university,
-        pledges    = 0,
+        pledges    = 2,
         done       = 0,
         last_year  = 4,
         agreed     = False,
