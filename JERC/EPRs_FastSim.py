@@ -7,7 +7,7 @@ def EPRs_FastSim():
         task       = 'JES -- MC Truth -- FastSim',
         user       = 'Purbita Rahman Prova',
         university = university,
-        pledges    = 0,
+        pledges    = 2,
         done       = 0,
         last_year  = 2,
         agreed     = False,
