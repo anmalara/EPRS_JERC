@@ -47,6 +47,7 @@ def main():
             summary[infos.index(name)] = yellow(tot)
 
         table.add_row(summary)
+        summary[infos.index('task')] = yellow('Total '+task)
         table_totals.add_row(summary)
         if args.expand:
             print(table,'\n')

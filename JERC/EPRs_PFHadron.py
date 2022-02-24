@@ -6,11 +6,12 @@ def EPRs_PFHadron():
         task       = 'PF Hadron Calibration',
         user       = 'Bhumika Kansal',
         university = 'PUNE-IISER',
-        pledges    = 0,
+        pledges    = 4,
         done       = 0,
         last_year  = 4,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Possible to have them split',
         ))
 
     eprs.append(EPRContainer(
