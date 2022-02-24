@@ -57,7 +57,7 @@ def main():
     for tot in totals:
         summary[infos.index(tot)] = cyan(totals[tot])
     table_totals.add_row(summary)
-    print(table_totals,'\n')
+    print('\n'*12,table_totals,'\n')
    
 
 
