@@ -97,9 +97,20 @@ def EPRs_HH():
         task       = 'JES -- L2 Res',
         user       = 'Mikel Mendizabal Morentin',
         university = 'DESY',
-        pledges    = 0,
+        pledges    = 2,
         done       = 0,
         last_year  = 2,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'Mikel Mendizabal Morentin',
+        university = 'DESY',
+        pledges    = 2,
+        done       = 0,
+        last_year  = 0,
         agreed     = False,
         approved   = False
         ))
@@ -111,6 +122,17 @@ def EPRs_HH():
         pledges    = 0,
         done       = 0,
         last_year  = 2,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'Jindrich Lidrych',
+        university = '????',
+        pledges    = 2,
+        done       = 0,
+        last_year  = 0,
         agreed     = False,
         approved   = False
         ))
