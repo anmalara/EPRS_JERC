@@ -51,7 +51,7 @@ def EPRs_HH():
 
     eprs.append(EPRContainer(
         task       = 'JER -- SF -- dijet',
-        user       = 'New student',
+        user       = 'Yannick Fisher',
         university = university,
         pledges    = 3,
         done       = 0,
@@ -62,7 +62,7 @@ def EPRs_HH():
 
     eprs.append(EPRContainer(
         task       = 'JME Coffea',
-        user       = 'New student',
+        user       = 'Yannick Fisher',
         university = university,
         pledges    = 3,
         done       = 0,
