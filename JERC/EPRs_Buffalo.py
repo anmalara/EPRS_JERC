@@ -47,4 +47,37 @@ def EPRs_Buffalo():
         approved   = False
         ))
 
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'Salvatore Rappoccio',
+        university = university,
+        pledges    = 1,
+        done       = 0,
+        last_year  = 0,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'Margaret Morris',
+        university = university,
+        pledges    = 2,
+        done       = 0,
+        last_year  = 0,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'JME Coffea',
+        user       = 'AC Williams',
+        university = university,
+        pledges    = 2,
+        done       = 0,
+        last_year  = 0,
+        agreed     = False,
+        approved   = False
+        ))
+
     return eprs
