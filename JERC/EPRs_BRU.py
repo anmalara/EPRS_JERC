@@ -16,7 +16,7 @@ def EPRs_BRU():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Andrea Malara',
         university = university,
         pledges    = 1,

@@ -15,6 +15,17 @@ def EPRs_HIP():
         ))
 
     eprs.append(EPRContainer(
+        task       = 'JES -- L3 Res -- Wqq',
+        user       = 'Mikael Myllymäki',
+        university = university,
+        pledges    = 4,
+        done       = 0,
+        last_year  = 2,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
         task       = 'JES -- Global fit',
         user       = 'Mikko Voutilainen',
         university = university,
@@ -40,11 +51,12 @@ def EPRs_HIP():
         task       = 'JES -- Global fit',
         user       = 'Mikael Myllymäki',
         university = university,
-        pledges    = 2,
+        pledges    = 0,
         done       = 0,
         last_year  = 2,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Moved to Wqq'
         ))
 
     eprs.append(EPRContainer(
@@ -73,11 +85,12 @@ def EPRs_HIP():
         task       = 'JES -- Flavor and composition',
         user       = 'Mikael Myllymäki',
         university = university,
-        pledges    = 2,
+        pledges    = 0,
         done       = 0,
         last_year  = 2,
         agreed     = False,
-        approved   = False
+        approved   = False,
+        note       = 'Moved to Wqq'
         ))
 
     eprs.append(EPRContainer(
@@ -134,7 +147,7 @@ def EPRs_HIP():
         agreed     = False,
         approved   = False
         ))
-    
+
     eprs.append(EPRContainer(
         task       = 'JER -- SF -- RC',
         user       = 'Min Suk Kim',
@@ -147,10 +160,21 @@ def EPRs_HIP():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Sami Lehti',
         university = university,
         pledges    = 1,
+        done       = 0,
+        last_year  = 0,
+        agreed     = False,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'JES -- L2 Res',
+        user       = 'Tapio Lampen',
+        university = university,
+        pledges    = 2,
         done       = 0,
         last_year  = 0,
         agreed     = False,

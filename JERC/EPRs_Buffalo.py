@@ -15,7 +15,7 @@ def EPRs_Buffalo():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JER -- MC',
+        task       = 'JES -- MC Truth -- JER',
         user       = 'Ia Iashvili',
         university = university,
         pledges    = 1.5,
@@ -37,7 +37,7 @@ def EPRs_Buffalo():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JER -- MC',
+        task       = 'JES -- MC Truth -- JER',
         user       = 'Hirak Bandyopadhyay',
         university = university,
         pledges    = 3.5,
@@ -48,7 +48,7 @@ def EPRs_Buffalo():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Salvatore Rappoccio',
         university = university,
         pledges    = 1,
@@ -59,7 +59,7 @@ def EPRs_Buffalo():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Margaret Morris',
         university = university,
         pledges    = 2,
@@ -70,7 +70,7 @@ def EPRs_Buffalo():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'AC Williams',
         university = university,
         pledges    = 2,

@@ -26,7 +26,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Alexander Paasch',
         university = university,
         pledges    = 2,
@@ -38,7 +38,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Matthias Schroeder',
         university = university,
         pledges    = 1,
@@ -61,7 +61,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Yannick Fisher',
         university = university,
         pledges    = 3,
@@ -72,7 +72,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JER -- MC',
+        task       = 'JES -- MC Truth -- JER',
         user       = 'Patrick Connor',
         university = university,
         pledges    = 1,
@@ -83,7 +83,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JER -- MC',
+        task       = 'JES -- MC Truth -- JER',
         user       = 'Polidamas Kosmoglou',
         university = 'Ioannina',
         pledges    = 3,
@@ -105,7 +105,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Mikel Mendizabal Morentin',
         university = 'DESY',
         pledges    = 2,
@@ -127,7 +127,7 @@ def EPRs_HH():
         ))
 
     eprs.append(EPRContainer(
-        task       = 'JME Coffea',
+        task       = 'R&D',
         user       = 'Jindrich Lidrych',
         university = '????',
         pledges    = 2,
