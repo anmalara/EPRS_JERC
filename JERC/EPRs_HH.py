@@ -89,7 +89,7 @@ def EPRs_HH():
         pledges    = 3,
         done       = 2,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -118,7 +118,7 @@ def EPRs_HH():
     eprs.append(EPRContainer(
         task       = 'JES -- L2 Res',
         user       = 'Jindrich Lidrych',
-        university = '????',
+        university = 'Northwestern',
         pledges    = 0,
         done       = 0,
         last_year  = 2,
@@ -129,7 +129,7 @@ def EPRs_HH():
     eprs.append(EPRContainer(
         task       = 'R&D',
         user       = 'Jindrich Lidrych',
-        university = '????',
+        university = 'Northwestern',
         pledges    = 2,
         done       = 0,
         last_year  = 0,

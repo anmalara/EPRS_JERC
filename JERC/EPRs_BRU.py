@@ -10,7 +10,7 @@ def EPRs_BRU():
         pledges    = 2,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         note       = 'Effective only '+str(round(1./3,2))+'. The rest for the previous convener.'
         ))
@@ -22,7 +22,7 @@ def EPRs_BRU():
         pledges    = 1,
         done       = 0,
         last_year  = 0,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -33,7 +33,7 @@ def EPRs_BRU():
         pledges    = 2,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -44,7 +44,7 @@ def EPRs_BRU():
         pledges    = 0,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -67,7 +67,7 @@ def EPRs_BRU():
         pledges    = 0,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 

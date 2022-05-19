@@ -21,7 +21,7 @@ def EPRs_KIT():
         pledges    = 0,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -32,7 +32,7 @@ def EPRs_KIT():
         pledges    = 0,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
