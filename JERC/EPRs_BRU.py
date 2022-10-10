@@ -55,7 +55,7 @@ def EPRs_BRU():
         pledges    = 3,
         done       = 0,
         last_year  = 0,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         note       = 'Pledge in JES -- L1 Res for 2021',
         ))

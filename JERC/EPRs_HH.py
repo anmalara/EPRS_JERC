@@ -10,7 +10,7 @@ def EPRs_HH():
         pledges    = 2,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -21,7 +21,7 @@ def EPRs_HH():
         pledges    = 1,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -32,7 +32,7 @@ def EPRs_HH():
         pledges    = 2,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         note       = 'Taken from JES -- L2 Res in 2021',
         ))
@@ -44,7 +44,7 @@ def EPRs_HH():
         pledges    = 1,
         done       = 0,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         note       = 'Taken from JES -- L2 Res in 2021',
         ))
@@ -78,7 +78,7 @@ def EPRs_HH():
         pledges    = 1,
         done       = 0,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 

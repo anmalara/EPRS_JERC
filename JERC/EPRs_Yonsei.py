@@ -10,7 +10,7 @@ def EPRs_Yonsei():
         pledges    = 2,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -21,7 +21,7 @@ def EPRs_Yonsei():
         pledges    = 3,
         done       = 0,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
