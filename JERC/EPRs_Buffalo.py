@@ -49,6 +49,17 @@ def EPRs_Buffalo():
 
     eprs.append(EPRContainer(
         task       = 'R&D',
+        user       = 'Garvita Agarwal',
+        university = university,
+        pledges    = 2,
+        done       = 0,
+        last_year  = 0,
+        agreed     = True,
+        approved   = False
+        ))
+
+    eprs.append(EPRContainer(
+        task       = 'R&D',
         user       = 'Salvatore Rappoccio',
         university = university,
         pledges    = 1,
