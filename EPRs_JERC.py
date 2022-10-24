@@ -9,6 +9,7 @@ from JERC.EPRs_Lyon import *
 from JERC.EPRs_KIT import *
 from JERC.EPRs_PFHadron import *
 from JERC.EPRs_Yonsei import *
+from JERC.EPRs_Riga import *
 
 
 def EPRs_JERC():
@@ -24,5 +25,6 @@ def EPRs_JERC():
     eprs.extend(EPRs_KIT())
     eprs.extend(EPRs_PFHadron())
     eprs.extend(EPRs_Yonsei())
+    eprs.extend(EPRs_Riga())
 
     return eprs
