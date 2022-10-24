@@ -9,7 +9,7 @@ def EPRs_PFHadron():
         pledges    = 4,
         done       = 0,
         last_year  = 4,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         note       = 'Possible to have them split',
         ))

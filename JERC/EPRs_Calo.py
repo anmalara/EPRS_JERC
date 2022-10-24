@@ -10,7 +10,7 @@ def EPRs_Calo():
         pledges    = 1,
         done       = 0,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 

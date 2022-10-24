@@ -10,7 +10,7 @@ def EPRs_Athens():
         pledges    = 4,
         done       = 0,
         last_year  = 4,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -21,7 +21,7 @@ def EPRs_Athens():
         pledges    = 4,
         done       = 0,
         last_year  = 4,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
     eprs.append(EPRContainer(
@@ -31,7 +31,7 @@ def EPRs_Athens():
         pledges    = 4,
         done       = 0,
         last_year  = 4,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
