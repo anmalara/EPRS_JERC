@@ -19,7 +19,7 @@ def main():
 
     infos = EPR_infos()
     tasks = EPR_tasks()
-    totals = { 'pledges': 0, 'done': 0, 'last_year': 0, 'note':0}
+    totals = { 'pledges': 0, 'done': 0, 'last_year': 0, 'note':0, 'agreed': True, 'approved': True}
 
     EPRS = []
     EPRS.extend(EPRs_JERC())
@@ -30,19 +30,25 @@ def main():
     table_totals = CreateTable(infos)
     previous_category = None
     for task in tasks:
-        total_epr_per_task = { 'pledges': 0, 'done': 0, 'last_year': 0}
+        total_epr_per_task = { 'pledges': 0, 'done': 0, 'last_year': 0, 'agreed': True, 'approved': True}
         table = CreateTable(infos)
         for epr in EPRS:
             if epr.get_value('task')!=task: continue
             table.add_row(epr.get_row())
             for x in total_epr_per_task:
                 val = epr.get_value(x)
-                total_epr_per_task[x] += val
+                if x =='agreed' or x=='approved':
+                    total_epr_per_task[x] *= val
+                else:
+                    total_epr_per_task[x] += val
 
         summary_per_task = ['' for x in infos]
         summary_per_task[infos.index('task')] = yellow('Total')
         for name, tot in total_epr_per_task.items():
-            totals[name]+=tot
+            if name =='agreed' or name=='approved':
+                totals[name] *= tot
+            else:
+                totals[name] += tot
             summary_per_task[infos.index(name)] = yellow(tot)
 
         table.add_row(summary_per_task)
@@ -52,7 +58,10 @@ def main():
             total_epr_previous_category = deepcopy(total_epr_per_task)
         elif previous_category == current_category:
             for x in total_epr_per_task:
-                total_epr_previous_category[x] += total_epr_per_task[x]
+                if x=='agreed' or x=='approved':
+                    total_epr_previous_category[x] *= total_epr_per_task[x]
+                else:
+                    total_epr_previous_category[x] += total_epr_per_task[x]
         else:
             summary_per_category = ['' for x in infos]
             summary_per_category[infos.index('task')] = blue('Total '+previous_category)
