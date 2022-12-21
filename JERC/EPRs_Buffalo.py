@@ -43,7 +43,7 @@ def EPRs_Buffalo():
         pledges    = 3.5,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 

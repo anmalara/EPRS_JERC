@@ -21,7 +21,7 @@ def EPRs_HIP():
         pledges    = 4,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -77,7 +77,7 @@ def EPRs_HIP():
         pledges    = 3,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -100,7 +100,7 @@ def EPRs_HIP():
         pledges    = 1,
         done       = 0,
         last_year  = 3,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -122,7 +122,7 @@ def EPRs_HIP():
         pledges    = 4,
         done       = 0,
         last_year  = 4,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -133,7 +133,7 @@ def EPRs_HIP():
         pledges    = 1,
         done       = 0,
         last_year  = 1,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 

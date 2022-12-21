@@ -56,7 +56,7 @@ def EPRs_HH():
         pledges    = 3,
         done       = 0,
         last_year  = 0,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         ))
 
@@ -67,7 +67,7 @@ def EPRs_HH():
         pledges    = 3,
         done       = 0,
         last_year  = 0,
-        agreed     = False,
+        agreed     = True,
         approved   = False,
         ))
 
