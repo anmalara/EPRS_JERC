@@ -111,7 +111,7 @@ def EPRs_HIP():
         pledges    = 1,
         done       = 0,
         last_year  = 2,
-        agreed     = False,
+        agreed     = True,
         approved   = False
         ))
 
@@ -152,7 +152,7 @@ def EPRs_HIP():
         task       = 'JER -- SF -- RC',
         user       = 'Min Suk Kim',
         university = university,
-        pledges    = 1,
+        pledges    = 2,
         done       = 0,
         last_year  = 0,
         agreed     = True,

@@ -18,7 +18,7 @@ def EPRs_Yonsei():
         task       = 'JER -- SF -- RC',
         user       = 'Guk Cho',
         university = university,
-        pledges    = 3,
+        pledges    = 2,
         done       = 0,
         last_year  = 1,
         agreed     = True,
