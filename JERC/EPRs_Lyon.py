@@ -6,7 +6,7 @@ def EPRs_Lyon():
 
     eprs.append(EPRContainer(
         task       = 'JES -- L3 Res -- gamma+jet',
-        user       = 'Benjamin Blancon',
+        user       = 'Stephanie Beauceron',
         university = university,
         pledges    = 1,
         done       = 0,

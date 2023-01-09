@@ -174,7 +174,7 @@ def EPRs_HIP():
         task       = 'JES -- L2 Res',
         user       = 'Tapio Lampen',
         university = university,
-        pledges    = 2,
+        pledges    = 1,
         done       = 0,
         last_year  = 0,
         agreed     = True,
